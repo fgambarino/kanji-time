@@ -1,0 +1,97 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+$sign-border: polygon(
+  0px 8px,
+  8px 8px,
+  8px 0px,
+  calc(100% - 8px) 0px,
+  calc(100% - 8px) 8px,
+  100% 8px,
+  100% calc(100% - 8px),
+  calc(100% - 8px) calc(100% - 8px),
+  calc(100% - 8px) 100%,
+  8px 100%,
+  8px calc(100% - 8px),
+  0px calc(100% - 8px)
+);
+
+:host {
+  .container {
+    background-image: url(/assets/images/fuji-bg-xs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+
+    .container__content {
+      height: calc(100vh - 200px);
+      width: 75%;
+      max-width: 1200px;
+      margin: auto;
+      background-color: rgba(204, 204, 204, 0.452);
+      border-radius: 10px;
+    }
+
+    .container__title {
+      text-align: center;
+      background: linear-gradient(25deg, #cda44b, #795206);
+
+      width: 200px;
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1rem;
+      color: #fffdea;
+      text-shadow: -2px -2px 4px black;
+      box-shadow: inset -1px -1px 4px 1px #2d2722;
+      clip-path: $sign-border;
+      -webkit-clip-path: $sign-border;
+      border: solid;
+      border-image-source: linear-gradient(25deg, #791a34, #b20e0e);
+      border-image-slice: 1;
+      border-width: 10px;
+
+      h1 {
+        @include transform(skewX(-10deg));
+      }
+    }
+  }
+
+  // .cloud {
+  //   position: fixed;
+  //   bottom: 1px;
+  //   left: 10px;
+  //   background-color: rgba(192, 174, 192, 0.363);
+  //   width: 100px;
+  //   height: 5rem;
+  // }
+}
+
+@media (min-width: $medium-breakpoint) {
+  :host {
+    .container {
+      background-image: url(/assets/images/fuji-bg-sm.jpg);
+
+      .container__title {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (min-width: $large-breakpoint) {
+  :host {
+    .container {
+      background-image: url(/assets/images/fuji-bg.jpg);
+
+      .container__title {
+        width: 400px;
+      }
+    }
+  }
+}

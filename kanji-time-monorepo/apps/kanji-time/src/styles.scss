@@ -1,0 +1,36 @@
+@import './fonts.scss';
+@import './scrollbar.scss';
+@import './variables.scss';
+@import './mixins.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans JP, sans-serif;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.content--funny {
+  @include transition(font-size 2s, color 2s);
+  cursor: pointer;
+  &:hover {
+    background-image: linear-gradient(
+      to left,
+      violet,
+      indigo,
+      blue,
+      green,
+      yellow,
+      orange,
+      red
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+  }
+}

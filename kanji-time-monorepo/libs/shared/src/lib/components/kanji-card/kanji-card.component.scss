@@ -1,0 +1,29 @@
+@import '../../../../mixins.scss';
+
+$light-color: #f0f0f0;
+$dark-color: #0d0d00;
+
+:host {
+  .kanji-card {
+    text-align: center;
+    cursor: pointer;
+    background-color: $light-color;
+    color: $dark-color;
+    max-width: 200px;
+    min-width: 100px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px $dark-color;
+    padding: 1rem;
+
+    &:hover {
+      @include transition(background-color 0.5s, color 0.5s);
+      background-color: $dark-color;
+      color: $light-color;
+    }
+
+    .kanji-card__kanji {
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}

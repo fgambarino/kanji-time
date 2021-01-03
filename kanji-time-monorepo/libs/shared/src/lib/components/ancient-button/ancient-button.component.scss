@@ -1,0 +1,42 @@
+$sign-border: polygon(
+  0px 6px,
+  6px 6px,
+  6px 0px,
+  calc(100% - 6px) 0px,
+  calc(100% - 6px) 6px,
+  100% 6px,
+  100% calc(100% - 6px),
+  calc(100% - 6px) calc(100% - 6px),
+  calc(100% - 6px) 100%,
+  6px 100%,
+  6px calc(100% - 6px),
+  0px calc(100% - 6px)
+);
+
+:host {
+  button {
+    text-align: center;
+    background: linear-gradient(25deg, #cda44b, #795206);
+    min-width: 200px;
+    padding: 1rem;
+    color: #fffdea;
+    text-shadow: -2px -2px 4px black;
+    box-shadow: inset -1px -1px 4px 1px #2d2722;
+    clip-path: $sign-border;
+    -webkit-clip-path: $sign-border;
+    border: solid;
+    border-image-source: linear-gradient(25deg, #791a34, #b20e0e);
+    border-image-slice: 1;
+    border-width: 7px;
+    cursor: pointer;
+
+    &:hover {
+      background: linear-gradient(0deg, #eeb63d, #a36f06);
+      border-image-source: linear-gradient(25deg, #b93155, #e71313);
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<ui-ancient-checkbox
+  (checkChange)="onCheckChange($event)"
+  label="N5"
+></ui-ancient-checkbox
+><ui-ancient-checkbox
+  (checkChange)="onCheckChange($event)"
+  label="N4"
+></ui-ancient-checkbox>
+<div class="kanji-list-container">
+  <ui-kanji-card
+    *ngFor="let k of kanjiList"
+    [kanjiInfo]="k"
+    (click)="onCardClick(k)"
+  ></ui-kanji-card>
+</div>

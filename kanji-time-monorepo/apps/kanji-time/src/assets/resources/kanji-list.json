@@ -1,0 +1,29 @@
+{
+  "1": {
+    "id": 1,
+    "kanji": "火",
+    "onReading": [
+      "ひ"
+    ],
+    "kunReading": [
+      "カ"
+    ],
+    "meaning": "fire",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "2": {
+    "id": 2,
+    "kanji": "山",
+    "onReading": [
+      "やま"
+    ],
+    "kunReading": [
+      "サン",
+      "セン"
+    ],
+    "meaning": "mountain",
+    "strokes": 3,
+    "jlpt": "N5"
+  }
+}

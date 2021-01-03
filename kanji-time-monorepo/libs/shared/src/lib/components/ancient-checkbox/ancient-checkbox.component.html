@@ -1,0 +1,14 @@
+<div class="container">
+  <label [attr.for]="id"
+    >{{ label }}
+    <input
+      type="checkbox"
+      [attr.name]="id"
+      [id]="id"
+      (change)="onChange($event)"
+      [checked]="isChecked"
+      (click)="onClick($event)"
+    />
+    <span class="checkmark"></span>
+  </label>
+</div>
