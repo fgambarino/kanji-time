@@ -29,7 +29,9 @@ export class KanjiListComponent implements OnInit, OnDestroy {
       .getKanjiList()
       .pipe(takeUntil(this.destroy$))
       .subscribe((result: KanjiInfoEntityList) => {
-        this.kanjiList = Object.values(result);
+        this.kanjiList = Object.values(result).sort(
+          (a, b) => a.strokes - b.strokes
+        );
       });
   }
 

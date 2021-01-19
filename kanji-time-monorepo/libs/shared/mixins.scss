@@ -34,7 +34,7 @@
 }
 //transform origin
 @mixin transform-origin($origin) {
-  moz-transform-origin: $origin;
+  -moz-transform-origin: $origin;
   -o-transform-origin: $origin;
   -ms-transform-origin: $origin;
   -webkit-transform-origin: $origin;
@@ -46,4 +46,12 @@
   -moz-user-select: $input;
   -ms-user-select: $input;
   user-select: $input;
+}
+
+@mixin clip-path($input) {
+  -webkit-clip-path: $input;
+  -moz-clip-path: $input;
+  -ms-clip-path: $input;
+  -o-clip-path: $input;
+  clip-path: $input;
 }

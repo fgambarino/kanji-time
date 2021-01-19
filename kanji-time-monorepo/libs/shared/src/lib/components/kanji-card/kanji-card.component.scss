@@ -9,11 +9,11 @@ $dark-color: #0d0d00;
     cursor: pointer;
     background-color: $light-color;
     color: $dark-color;
-    max-width: 200px;
-    min-width: 100px;
+    width: 150px;
     border-radius: 4px;
     box-shadow: 1px 1px 5px $dark-color;
     padding: 1rem;
+    margin: 5px;
 
     &:hover {
       @include transition(background-color 0.5s, color 0.5s);
@@ -24,6 +24,12 @@ $dark-color: #0d0d00;
     .kanji-card__kanji {
       font-size: 32px;
       font-weight: bold;
+    }
+
+    .kanji-card__reading {
+      span {
+        white-space: nowrap;
+      }
     }
   }
 }

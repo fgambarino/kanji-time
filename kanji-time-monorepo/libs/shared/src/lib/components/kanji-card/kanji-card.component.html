@@ -1,6 +1,18 @@
 <div class="kanji-card">
   <p class="kanji-card__kanji">{{ kanji }}</p>
   <small>{{ meaning }}</small>
-  <p class="kanji-card__reading"><strong>On:</strong> {{ onReading }}</p>
-  <p class="kanji-card__reading"><strong>Kun:</strong> {{ kunReading }}</p>
+  <p class="kanji-card__reading" *ngIf="onReading">
+    <strong>On:</strong>
+    <span *ngFor="let oReading of onReading; let last = last"
+      >{{ oReading }}
+      <span *ngIf="!last"> ,</span>
+    </span>
+  </p>
+  <p class="kanji-card__reading" *ngIf="kunReading">
+    <strong>Kun:</strong>
+    <span *ngFor="let kReading of kunReading; let last = last"
+      >{{ kReading }}
+      <span *ngIf="!last"> ,</span>
+    </span>
+  </p>
 </div>

@@ -1,11 +1,14 @@
-<ui-ancient-checkbox
-  (checkChange)="onCheckChange($event)"
-  label="N5"
-></ui-ancient-checkbox
-><ui-ancient-checkbox
-  (checkChange)="onCheckChange($event)"
-  label="N4"
-></ui-ancient-checkbox>
+<ui-option-bar>
+  <!-- <p class="">JLPT Certification:</p> -->
+  <ui-ancient-checkbox
+    (checkChange)="onCheckChange($event)"
+    label="N5"
+  ></ui-ancient-checkbox
+  ><ui-ancient-checkbox
+    (checkChange)="onCheckChange($event)"
+    label="N4"
+  ></ui-ancient-checkbox
+></ui-option-bar>
 <div class="kanji-list-container">
   <ui-kanji-card
     *ngFor="let k of kanjiList"

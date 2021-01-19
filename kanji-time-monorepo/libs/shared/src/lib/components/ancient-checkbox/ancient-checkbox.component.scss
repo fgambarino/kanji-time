@@ -1,10 +1,25 @@
 @import '../../../../mixins.scss';
 
+$sign-border: polygon(
+  0px 2px,
+  2px 2px,
+  2px 0px,
+  calc(100% - 2px) 0px,
+  calc(100% - 2px) 2px,
+  100% 2px,
+  100% calc(100% - 2px),
+  calc(100% - 2px) calc(100% - 2px),
+  calc(100% - 2px) 100%,
+  2px 100%,
+  2px calc(100% - 2px),
+  0px calc(100% - 2px)
+);
+
 .container {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin: 0px 12px 12px 0px;
   font-size: 20px;
   @include user-select(none);
 
@@ -37,7 +52,7 @@
   height: 25px;
   width: 25px;
   border: 2px solid #350606;
-  border-radius: 5px;
+  @include clip-path($sign-border);
   background-image: linear-gradient(45deg, #aa7636, #c3b023);
   @include transition(border 0.5s);
 
@@ -54,8 +69,8 @@
     top: 3px;
     width: 5px;
     height: 10px;
-    border: solid #350606;
-    box-shadow: 1px 1px 1px #c9cabf;
+    border: solid #ffffff;
+    box-shadow: 1px 1px 1px #1d1d1a;
     border-width: 0 3px 3px 0;
     @include rotate(45);
   }

@@ -14,15 +14,15 @@ import {
 })
 export class KanjiCardComponent {
   kanji: string;
-  onReading: string;
-  kunReading: string;
+  onReading: string[];
+  kunReading: string[];
   meaning: string;
 
   @Input() set kanjiInfo(value: KanjiInfoModel) {
     const { kanji, onReading, kunReading, meaning } = value;
     this.kanji = kanji;
-    this.onReading = onReading.join(', ');
-    this.kunReading = kunReading.join(', ');
+    this.onReading = onReading;
+    this.kunReading = kunReading;
     this.meaning = meaning;
   }
 

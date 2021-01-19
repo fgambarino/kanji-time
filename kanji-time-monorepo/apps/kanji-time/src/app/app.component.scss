@@ -49,8 +49,7 @@ $sign-border: polygon(
       color: #fffdea;
       text-shadow: -2px -2px 4px black;
       box-shadow: inset -1px -1px 4px 1px #2d2722;
-      clip-path: $sign-border;
-      -webkit-clip-path: $sign-border;
+      @include clip-path($sign-border);
       border: solid;
       border-image-source: linear-gradient(25deg, #791a34, #b20e0e);
       border-image-slice: 1;

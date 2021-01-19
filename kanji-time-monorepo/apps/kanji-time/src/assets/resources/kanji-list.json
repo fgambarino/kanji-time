@@ -19,11 +19,1414 @@
       "やま"
     ],
     "kunReading": [
-      "サン",
-      "セン"
+      "サン"
     ],
     "meaning": "mountain",
     "strokes": 3,
+    "jlpt": "N5"
+  },
+  "3": {
+    "id": 3,
+    "kanji": "川",
+    "onReading": [
+      "かわ"
+    ],
+    "kunReading": [
+      "セン"
+    ],
+    "meaning": "river",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "4": {
+    "id": 4,
+    "kanji": "田",
+    "onReading": [
+      "た"
+    ],
+    "kunReading": [
+      "デン"
+    ],
+    "meaning": "rice field",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "5": {
+    "id": 5,
+    "kanji": "日",
+    "onReading": [
+      "ひ","び"
+    ],
+    "kunReading": [
+      "ニチ","ニ","ジツ"
+    ],
+    "meaning": "sun",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "6": {
+    "id": 6,
+    "kanji": "月",
+    "onReading": [
+      "つき"
+    ],
+    "kunReading": [
+      "ゲツ","―ガツ"
+    ],
+    "meaning": "moon",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "7": {
+    "id": 7,
+    "kanji": "水",
+    "onReading": [
+      "みず"
+    ],
+    "kunReading": [
+      "スイ"
+    ],
+    "meaning": "water",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "8": {
+    "id": 8,
+    "kanji": "木",
+    "onReading": [
+      "き"
+    ],
+    "kunReading": [
+      "モク"
+    ],
+    "meaning": "tree",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "9": {
+    "id": 9,
+    "kanji": "金",
+    "onReading": [
+      "かね"
+    ],
+    "kunReading": [
+      "キン"
+    ],
+    "meaning": "gold",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "10": {
+    "id": 10,
+    "kanji": "土",
+    "onReading": [
+      "つち"
+    ],
+    "kunReading": [
+      "ト","ド"
+    ],
+    "meaning": "soil",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "11": {
+    "id": 11,
+    "kanji": "一",
+    "onReading": [
+      "ひとーつ"
+    ],
+    "kunReading": [
+      "イチ","イッー"
+    ],
+    "meaning": "one",
+    "strokes": 1,
+    "jlpt": "N5"
+  },
+  "12": {
+    "id": 12,
+    "kanji": "二",
+    "onReading": [
+      "ふたーつ"
+    ],
+    "kunReading": [
+      "ニ"
+    ],
+    "meaning": "two",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "13": {
+    "id": 13,
+    "kanji": "三",
+    "onReading": [
+      "みっーつ"
+    ],
+    "kunReading": [
+      "サン"
+    ],
+    "meaning": "three",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "14": {
+    "id": 14,
+    "kanji": "四",
+    "onReading": [
+      "よっーつ","よん","よ"
+    ],
+    "kunReading": [
+      "シ"
+    ],
+    "meaning": "four",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "15": {
+    "id": 15,
+    "kanji": "五",
+    "onReading": [
+      "いつつ"
+    ],
+    "kunReading": [
+      "ゴ"
+    ],
+    "meaning": "five",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "16": {
+    "id": 16,
+    "kanji": "六",
+    "onReading": [
+      "むっーつ"
+    ],
+    "kunReading": [
+      "ロク","ロッー"
+    ],
+    "meaning": "six",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "17": {
+    "id": 17,
+    "kanji": "七",
+    "onReading": [
+      "ななーつ"
+    ],
+    "kunReading": [
+      "シチ"
+    ],
+    "meaning": "seven",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "18": {
+    "id": 18,
+    "kanji": "八",
+    "onReading": [
+      "やっーつ"
+    ],
+    "kunReading": [
+      "ハチ","ハッー"
+    ],
+    "meaning": "eight",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "19": {
+    "id": 19,
+    "kanji": "九",
+    "onReading": [
+      "ここのーつ"
+    ],
+    "kunReading": [
+      "キュウ","ク"
+    ],
+    "meaning": "nine",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "20": {
+    "id": 20,
+    "kanji": "十",
+    "onReading": [
+      "とお"
+    ],
+    "kunReading": [
+      "ジュウ","ジュッー","ジッー"
+    ],
+    "meaning": "ten",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "21": {
+    "id": 21,
+    "kanji": "百",
+    "onReading": [
+    
+    ],
+    "kunReading": [
+      "ヒャク","ービャク","ーピャク"
+    ],
+    "meaning": "hundred",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "22": {
+    "id": 22,
+    "kanji": "千",
+    "onReading": [
+	  "ち"
+    ],
+    "kunReading": [
+      "セン","ーゼン"
+    ],
+    "meaning": "thousand",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "23": {
+    "id": 23,
+    "kanji": "万",
+    "onReading": [
+     
+    ],
+    "kunReading": [
+      "マン","バン"
+    ],
+    "meaning": "ten thousand",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "24": {
+    "id": 24,
+    "kanji": "円",
+    "onReading": [
+     
+    ],
+    "kunReading": [
+      "エン"
+    ],
+    "meaning": "circle, yen",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "25": {
+    "id": 25,
+    "kanji": "年",
+    "onReading": [
+     "とし"
+    ],
+    "kunReading": [
+      "ネン"
+    ],
+    "meaning": "year, age",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "26": {
+    "id": 26,
+    "kanji": "上",
+    "onReading": [
+      "うえ","あーがる"
+    ],
+    "kunReading": [
+      "ジョウ"
+    ],
+    "meaning": "above, on",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "27": {
+    "id": 27,
+    "kanji": "下",
+    "onReading": [
+      "した","さーがる"     
+    ],
+    "kunReading": [
+      "カ","ゲ"
+    ],
+    "meaning": "under",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "28": {
+    "id": 28,
+    "kanji": "半",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "ハン"
+    ],
+    "meaning": "half",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "29": {
+    "id": 29,
+    "kanji": "分",
+    "onReading": [
+      "わーける","わーかる"     
+    ],
+    "kunReading": [
+      "ブン","フン","ープン"
+    ],
+    "meaning": "under",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "30": {
+    "id": 30,
+    "kanji": "中",
+    "onReading": [
+      "なか"    
+    ],
+    "kunReading": [
+      "チュウ","ージュウ"
+    ],
+    "meaning": "middle",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "31": {
+    "id": 31,
+    "kanji": "人",
+    "onReading": [
+      "ひと"
+    ],
+    "kunReading": [
+      "ジン","ニン"
+    ],
+    "meaning": "person",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "32": {
+    "id": 32,
+    "kanji": "子",
+    "onReading": [
+      "こ"    
+    ],
+    "kunReading": [
+      "シ"
+    ],
+    "meaning": "child",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "33": {
+    "id": 33,
+    "kanji": "女",
+    "onReading": [
+      "おんな"    
+    ],
+    "kunReading": [
+      "ジョ"
+    ],
+    "meaning": "woman",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "34": {
+    "id": 34,
+    "kanji": "男",
+    "onReading": [
+      "おとこ"    
+    ],
+    "kunReading": [
+      "ダン","ナン"
+    ],
+    "meaning": "man",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "35": {
+    "id": 35,
+    "kanji": "目",
+    "onReading": [
+      "め"    
+    ],
+    "kunReading": [
+      "モク"
+    ],
+    "meaning": "eye",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "36": {
+    "id": 36,
+    "kanji": "口",
+    "onReading": [
+      "くち","ーぐち"    
+    ],
+    "kunReading": [
+      "コウ"
+    ],
+    "meaning": "mouth",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "37": {
+    "id": 37,
+    "kanji": "耳",
+    "onReading": [
+      "みみ"    
+    ],
+    "kunReading": [
+      "ジ"
+    ],
+    "meaning": "ear",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "38": {
+    "id": 38,
+    "kanji": "手",
+    "onReading": [
+      "て"    
+    ],
+    "kunReading": [
+      "シュ"
+    ],
+    "meaning": "hand",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "39": {
+    "id": 39,
+    "kanji": "足",
+    "onReading": [
+      "あし","たーりる"    
+    ],
+    "kunReading": [
+      "ソク"
+    ],
+    "meaning": "leg, foot",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "40": {
+    "id": 40,
+    "kanji": "力",
+    "onReading": [
+      "ちから"    
+    ],
+    "kunReading": [
+      "リョク","リキ"
+    ],
+    "meaning": "power",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "41": {
+    "id": 41,
+    "kanji": "父",
+    "onReading": [
+      "ちち"    
+    ],
+    "kunReading": [
+      "フ"
+    ],
+    "meaning": "father",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "42": {
+    "id": 42,
+    "kanji": "母",
+    "onReading": [
+      "はは"    
+    ],
+    "kunReading": [
+      "ボ"
+    ],
+    "meaning": "mother",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "43": {
+    "id": 43,
+    "kanji": "先",
+    "onReading": [
+      "さき"    
+    ],
+    "kunReading": [
+      "セン"
+    ],
+    "meaning": "foregoing, previous",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "44": {
+    "id": 44,
+    "kanji": "生",
+    "onReading": [
+      "うーまれる","いーきる"    
+    ],
+    "kunReading": [
+      "セイ"
+    ],
+    "meaning": "be born, live",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "45": {
+    "id": 45,
+    "kanji": "学",
+    "onReading": [
+      "まなーぶ"    
+    ],
+    "kunReading": [
+      "ガク","ガッー"
+    ],
+    "meaning": "study",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "46": {
+    "id": 46,
+    "kanji": "校",
+    "onReading": [
+          
+    ],
+    "kunReading": [
+      "コウ"
+    ],
+    "meaning": "school",
+    "strokes": 10,
+    "jlpt": "N5"
+  },
+  "47": {
+    "id": 47,
+    "kanji": "友",
+    "onReading": [
+      "とも"    
+    ],
+    "kunReading": [
+      "ユウ"
+    ],
+    "meaning": "friend",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "48": {
+    "id": 48,
+    "kanji": "本",
+    "onReading": [
+      "もと"    
+    ],
+    "kunReading": [
+      "ホン","ーポン","ーボン"
+    ],
+    "meaning": "book, root/origin",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "49": {
+    "id": 49,
+    "kanji": "毎",
+    "onReading": [
+          
+    ],
+    "kunReading": [
+      "マイ"
+    ],
+    "meaning": "every",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "50": {
+    "id": 50,
+    "kanji": "何",
+    "onReading": [
+      "なに","なん"	  
+    ],
+    "kunReading": [
+      
+    ],
+    "meaning": "what",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "51": {
+    "id": 51,
+    "kanji": "前",
+    "onReading": [
+      "まえ"    
+    ],
+    "kunReading": [
+      "ゼン"
+    ],
+    "meaning": "front, before",
+    "strokes": 9,
+    "jlpt": "N5"
+  },
+  "52": {
+    "id": 52,
+    "kanji": "後",
+    "onReading": [
+      "うしーろ","あと"    
+    ],
+    "kunReading": [
+      "ゴ","コウ"
+    ],
+    "meaning": "back, after",
+    "strokes": 9,
+    "jlpt": "N5"
+  },
+  "53": {
+    "id": 53,
+    "kanji": "外",
+    "onReading": [
+      "そと"    
+    ],
+    "kunReading": [
+      "がい"
+    ],
+    "meaning": "outside",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "54": {
+    "id": 54,
+    "kanji": "左",
+    "onReading": [
+      "ひだり"    
+    ],
+    "kunReading": [
+      "サ"
+    ],
+    "meaning": "left",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "55": {
+    "id": 55,
+    "kanji": "右",
+    "onReading": [
+      "みぎ"    
+    ],
+    "kunReading": [
+      "ウ","ユウ"
+    ],
+    "meaning": "right",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "56": {
+    "id": 56,
+    "kanji": "東",
+    "onReading": [
+      "ひがし"    
+    ],
+    "kunReading": [
+      "トウ"
+    ],
+    "meaning": "east",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "57": {
+    "id": 57,
+    "kanji": "西",
+    "onReading": [
+      "にし"    
+    ],
+    "kunReading": [
+      "サイ","ーザイ","セイ"
+    ],
+    "meaning": "west",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "58": {
+    "id": 58,
+    "kanji": "南",
+    "onReading": [
+      "みなみ"    
+    ],
+    "kunReading": [
+      "ナン"
+    ],
+    "meaning": "south",
+    "strokes": 9,
+    "jlpt": "N5"
+  },
+  "59": {
+    "id": 59,
+    "kanji": "北",
+    "onReading": [
+      "きた"    
+    ],
+    "kunReading": [
+      "ホク","ホッー"
+    ],
+    "meaning": "north",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "60": {
+    "id": 60,
+    "kanji": "名",
+    "onReading": [
+      "な"    
+    ],
+    "kunReading": [
+      "メイ"
+    ],
+    "meaning": "name",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "61": {
+    "id": 61,
+    "kanji": "牛",
+    "onReading": [
+      "うし"    
+    ],
+    "kunReading": [
+      "ギュウ"
+    ],
+    "meaning": "cow",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "62": {
+    "id": 62,
+    "kanji": "馬",
+    "onReading": [
+      "うま"    
+    ],
+    "kunReading": [
+      "バ"
+    ],
+    "meaning": "horse",
+    "strokes": 10,
+    "jlpt": "N5"
+  },
+  "63": {
+    "id": 63,
+    "kanji": "魚",
+    "onReading": [
+      "さかな"    
+    ],
+    "kunReading": [
+      "ギョ"
+    ],
+    "meaning": "fish",
+    "strokes": 11,
+    "jlpt": "N5"
+  },
+  "64": {
+    "id": 64,
+    "kanji": "貝",
+    "onReading": [
+      "かい"    
+    ],
+    "kunReading": [
+      
+    ],
+    "meaning": "shellfish",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "65": {
+    "id": 65,
+    "kanji": "雨",
+    "onReading": [
+      "あめ"    
+    ],
+    "kunReading": [
+      "ウ"
+    ],
+    "meaning": "rain",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "66": {
+    "id": 66,
+    "kanji": "天",
+    "onReading": [
+          
+    ],
+    "kunReading": [
+      "テン"
+    ],
+    "meaning": "heaven",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "67": {
+    "id": 67,
+    "kanji": "気",
+    "onReading": [
+          
+    ],
+    "kunReading": [
+      "キ"
+    ],
+    "meaning": "spirit",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "68": {
+    "id": 68,
+    "kanji": "車",
+    "onReading": [
+      "くるま"    
+    ],
+    "kunReading": [
+      "シャ"
+    ],
+    "meaning": "car",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "69": {
+    "id": 69,
+    "kanji": "門",
+    "onReading": [
+          
+    ],
+    "kunReading": [
+      "モン"
+    ],
+    "meaning": "gate",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "70": {
+    "id": 70,
+    "kanji": "午",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "ゴ"
+    ],
+    "meaning": "noon",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "71": {
+    "id": 71,
+    "kanji": "大",
+    "onReading": [
+      "おおーきい"
+    ],
+    "kunReading": [
+      "ダイ","タイ"
+    ],
+    "meaning": "big",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "72": {
+    "id": 72,
+    "kanji": "小",
+    "onReading": [
+      "ちいーさい","お","こ"
+    ],
+    "kunReading": [
+      "ショウ"
+    ],
+    "meaning": "small",
+    "strokes": 3,
+    "jlpt": "N5"
+  },
+  "73": {
+    "id": 73,
+    "kanji": "高",
+    "onReading": [
+      "たかーい"
+    ],
+    "kunReading": [
+      "コウ"
+    ],
+    "meaning": "high, expensive",
+    "strokes": 10,
+    "jlpt": "N5"
+  },
+  "74": {
+    "id": 74,
+    "kanji": "安",
+    "onReading": [
+      "やすーい"
+    ],
+    "kunReading": [
+      "アン"
+    ],
+    "meaning": "cheap, safe",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "75": {
+    "id": 75,
+    "kanji": "新",
+    "onReading": [
+      "あたらーしい"
+    ],
+    "kunReading": [
+      "シン"
+    ],
+    "meaning": "new",
+    "strokes": 13,
+    "jlpt": "N5"
+  },
+  "76": {
+    "id": 76,
+    "kanji": "古",
+    "onReading": [
+      "ふるーい"
+    ],
+    "kunReading": [
+      "コ"
+    ],
+    "meaning": "old",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "77": {
+    "id": 77,
+    "kanji": "長",
+    "onReading": [
+      "ながーい"
+    ],
+    "kunReading": [
+      "チョウ"
+    ],
+    "meaning": "long, chief",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "78": {
+    "id": 78,
+    "kanji": "多",
+    "onReading": [
+      "おおーい"
+    ],
+    "kunReading": [
+      "タ"
+    ],
+    "meaning": "many, much",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "79": {
+    "id": 79,
+    "kanji": "少",
+    "onReading": [
+      "すくーない","すこーし"
+    ],
+    "kunReading": [
+      "ショウ"
+    ],
+    "meaning": "few, little",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "80": {
+    "id": 80,
+    "kanji": "早",
+    "onReading": [
+      "はやーい"
+    ],
+    "kunReading": [
+      "ソウ"
+    ],
+    "meaning": "early",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "81": {
+    "id": 81,
+    "kanji": "行",
+    "onReading": [
+      "いーく","おこなーう"
+    ],
+    "kunReading": [
+      "コウ","ギョウ"
+    ],
+    "meaning": "go",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "82": {
+    "id": 82,
+    "kanji": "来",
+    "onReading": [
+      "くーる","こーない","きーます"
+    ],
+    "kunReading": [
+      "ライ"
+    ],
+    "meaning": "come",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "83": {
+    "id": 83,
+    "kanji": "食",
+    "onReading": [
+      "たーべる"
+    ],
+    "kunReading": [
+      "ショク"
+    ],
+    "meaning": "eat",
+    "strokes": 9,
+    "jlpt": "N5"
+  },
+  "84": {
+    "id": 84,
+    "kanji": "見",
+    "onReading": [
+      "みーる"
+    ],
+    "kunReading": [
+      "ケン"
+    ],
+    "meaning": "see",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "85": {
+    "id": 85,
+    "kanji": "入",
+    "onReading": [
+      "はいーる","いーれる"
+    ],
+    "kunReading": [
+      "ニュウ"
+    ],
+    "meaning": "enter, put in",
+    "strokes": 2,
+    "jlpt": "N5"
+  },
+  "86": {
+    "id": 86,
+    "kanji": "出",
+    "onReading": [
+      "でーる","だーす"
+    ],
+    "kunReading": [
+      "シュツ","シュッー"
+    ],
+    "meaning": "go out, take out",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "87": {
+    "id": 87,
+    "kanji": "立",
+    "onReading": [
+      "たーつ"
+    ],
+    "kunReading": [
+      "リツ","リッー"
+    ],
+    "meaning": "stand",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "88": {
+    "id": 88,
+    "kanji": "書",
+    "onReading": [
+      "かーく"
+    ],
+    "kunReading": [
+      "ショ"
+    ],
+    "meaning": "write, book",
+    "strokes": 10,
+    "jlpt": "N5"
+  },
+  "89": {
+    "id": 89,
+    "kanji": "言",
+    "onReading": [
+      "いーう"
+    ],
+    "kunReading": [
+      "ゲン","ゴン"
+    ],
+    "meaning": "say",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "90": {
+    "id": 90,
+    "kanji": "飲",
+    "onReading": [
+      "のーむ"
+    ],
+    "kunReading": [
+      "イン"
+    ],
+    "meaning": "drink",
+    "strokes": 12,
+    "jlpt": "N5"
+  },
+  "91": {
+    "id": 91,
+    "kanji": "話",
+    "onReading": [
+      "はなーす","はなし"
+    ],
+    "kunReading": [
+      "ワ"
+    ],
+    "meaning": "speak",
+    "strokes": 13,
+    "jlpt": "N5"
+  },
+  "92": {
+    "id": 92,
+    "kanji": "読",
+    "onReading": [
+      "よーむ"
+    ],
+    "kunReading": [
+      "ドク"
+    ],
+    "meaning": "read",
+    "strokes": 14,
+    "jlpt": "N5"
+  },
+  "93": {
+    "id": 93,
+    "kanji": "語",
+    "onReading": [
+      "かたーる"
+    ],
+    "kunReading": [
+      "ゴ"
+    ],
+    "meaning": "word",
+    "strokes": 14,
+    "jlpt": "N5"
+  },
+  "94": {
+    "id": 94,
+    "kanji": "間",
+    "onReading": [
+      "あいだ","ma"
+    ],
+    "kunReading": [
+      "カン"
+    ],
+    "meaning": "between",
+    "strokes": 12,
+    "jlpt": "N5"
+  },
+  "95": {
+    "id": 95,
+    "kanji": "聞",
+    "onReading": [
+      "きーく","きーこえる"
+    ],
+    "kunReading": [
+      "ブン"
+    ],
+    "meaning": "listen",
+    "strokes": 14,
+    "jlpt": "N5"
+  },
+  "96": {
+    "id": 96,
+    "kanji": "買",
+    "onReading": [
+      "かーう"
+    ],
+    "kunReading": [
+      "バイ"
+    ],
+    "meaning": "buy",
+    "strokes": 12,
+    "jlpt": "N5"
+  },
+  "97": {
+    "id": 97,
+    "kanji": "休",
+    "onReading": [
+      "やすーむ"
+    ],
+    "kunReading": [
+      "キュウ"
+    ],
+    "meaning": "rest",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "9８": {
+    "id": 98,
+    "kanji": "時",
+    "onReading": [
+      "とき"
+    ],
+    "kunReading": [
+      "ジ"
+    ],
+    "meaning": "time",
+    "strokes": 10,
+    "jlpt": "N5"
+  },
+  "99": {
+    "id": 99,
+    "kanji": "週",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "シュウ"
+    ],
+    "meaning": "week",
+    "strokes": 11,
+    "jlpt": "N5"
+  },
+  "100": {
+    "id": 100,
+    "kanji": "道",
+    "onReading": [
+      "みち"
+    ],
+    "kunReading": [
+      "ドウ"
+    ],
+    "meaning": "street",
+    "strokes": 12,
+    "jlpt": "N5"
+  },
+  "101": {
+    "id": 101,
+    "kanji": "今",
+    "onReading": [
+      "いま"
+    ],
+    "kunReading": [
+      "コン"
+    ],
+    "meaning": "now",
+    "strokes": 4,
+    "jlpt": "N5"
+  },
+  "10２": {
+    "id": 102,
+    "kanji": "会",
+    "onReading": [
+      "あーい"
+    ],
+    "kunReading": [
+      "カイ"
+    ],
+    "meaning": "meet",
+    "strokes": 6,
+    "jlpt": "N5"
+  },
+  "103": {
+    "id": 103,
+    "kanji": "社",
+    "onReading": [
+     
+    ],
+    "kunReading": [
+      "シャ","ージャ"
+    ],
+    "meaning": "company",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "104": {
+    "id": 104,
+    "kanji": "店",
+    "onReading": [
+      "みせ"
+    ],
+    "kunReading": [
+      "テン"
+    ],
+    "meaning": "shop",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "105": {
+    "id": 105,
+    "kanji": "駅",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "エキ"
+    ],
+    "meaning": "station",
+    "strokes": 14,
+    "jlpt": "N5"
+  },
+  "106": {
+    "id": 106,
+    "kanji": "花",
+    "onReading": [
+      "はな"
+    ],
+    "kunReading": [
+      "カ"
+    ],
+    "meaning": "flower",
+    "strokes": 7,
+    "jlpt": "N5"
+  },
+  "107": {
+    "id": 107,
+    "kanji": "国",
+    "onReading": [
+      "くに"
+    ],
+    "kunReading": [
+      "コク","ーゴク"
+    ],
+    "meaning": "country",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "108": {
+    "id": 108,
+    "kanji": "白",
+    "onReading": [
+      "しろ","しろーい"
+    ],
+    "kunReading": [
+      "ハク"
+    ],
+    "meaning": "white",
+    "strokes": 5,
+    "jlpt": "N5"
+  },
+  "109": {
+    "id": 109,
+    "kanji": "空",
+    "onReading": [
+      "そら","ーぞら","から"
+    ],
+    "kunReading": [
+      "クウ"
+    ],
+    "meaning": "sky, empty",
+    "strokes": 8,
+    "jlpt": "N5"
+  },
+  "110": {
+    "id": 110,
+    "kanji": "電",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "デン"
+    ],
+    "meaning": "electricity",
+    "strokes": 13,
     "jlpt": "N5"
   }
 }
