@@ -35,13 +35,14 @@ $sign-border: polygon(
       margin: auto;
       background-color: rgba(204, 204, 204, 0.452);
       border-radius: 10px;
+      box-shadow: 3px 2px 12px #4a5f6d inset;
     }
 
     .container__title {
       text-align: center;
       background: linear-gradient(25deg, #cda44b, #795206);
 
-      width: 200px;
+      width: 300px;
       margin-bottom: 2rem;
       margin-left: auto;
       margin-right: auto;
@@ -61,24 +62,30 @@ $sign-border: polygon(
     }
   }
 
-  // .cloud {
-  //   position: fixed;
-  //   bottom: 1px;
-  //   left: 10px;
-  //   background-color: rgba(192, 174, 192, 0.363);
-  //   width: 100px;
-  //   height: 5rem;
-  // }
+  .container__footer {
+    color: #fafafa;
+    text-shadow: 1px 1px 1px #123499;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+
+    a {
+      text-decoration: none;
+      color: #8ea1da;
+
+      &:hover {
+        text-decoration: underline;
+        @include transition(color 0.5s);
+        color: #ccddff;
+      }
+    }
+  }
 }
 
 @media (min-width: $medium-breakpoint) {
   :host {
     .container {
       background-image: url(/assets/images/fuji-bg-sm.jpg);
-
-      .container__title {
-        width: 300px;
-      }
     }
   }
 }
