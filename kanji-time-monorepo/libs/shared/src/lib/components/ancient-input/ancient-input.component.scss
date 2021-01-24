@@ -1,0 +1,29 @@
+$inputTextColor: #312d03;
+$textShadow: 1px 1px 1px #fafafa;
+
+:host {
+  input[type='text'] {
+    border: 2px solid #b20e0e;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #614e4e;
+    background-color: #efd397;
+    color: $inputTextColor;
+    text-shadow: $textShadow;
+
+    &::placeholder {
+      color: $inputTextColor;
+      text-shadow: $textShadow;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  button {
+    background: none;
+    border: none;
+    &:focus {
+      outline: 0;
+    }
+  }
+}

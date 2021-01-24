@@ -1,0 +1,12 @@
+<input
+  type="text"
+  placeholder="Search by meaning"
+  [formControl]="search"
+/><button
+  tpye="button"
+  *ngIf="search.value"
+  (click)="clear()"
+  title="Reset search criteria"
+>
+  ❌
+</button>

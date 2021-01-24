@@ -1,11 +1,8 @@
-import {
-  KanjiInfoEntityList,
-  KanjiInfoModel,
-} from './../../domain/kanji-info.model';
+import { KanjiInfoModel } from './../../domain/kanji-info.model';
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { ExploreKanjiService } from '../services/explore-kanji.service';
-import { takeUntil } from 'rxjs/operators';
+import { map, takeUntil } from 'rxjs/operators';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -15,7 +12,8 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./kanji-list.component.scss'],
 })
 export class KanjiListComponent implements OnInit, OnDestroy {
-  kanjiList: KanjiInfoModel[];
+  private _kanjiList: KanjiInfoModel[];
+  visibleKanjiList$ = new Subject<KanjiInfoModel[]>();
   destroy$ = new Subject();
 
   constructor(
@@ -27,11 +25,15 @@ export class KanjiListComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.kanjiService
       .getKanjiList()
-      .pipe(takeUntil(this.destroy$))
-      .subscribe((result: KanjiInfoEntityList) => {
-        this.kanjiList = Object.values(result).sort(
-          (a, b) => a.strokes - b.strokes
-        );
+      .pipe(
+        takeUntil(this.destroy$),
+        map((result) =>
+          Object.values(result).sort((a, b) => a.strokes - b.strokes)
+        )
+      )
+      .subscribe((result) => {
+        this._kanjiList = result;
+        this.visibleKanjiList$.next(result);
       });
   }
 
@@ -39,11 +41,23 @@ export class KanjiListComponent implements OnInit, OnDestroy {
     this.destroy$.next();
   }
 
-  onCheckChange(event: any) {
-    console.log(event);
-  }
+  // onCheckChange(event: any) {
+  //   console.log(event);
+  // }
 
   onCardClick(info: KanjiInfoModel) {
     this.router.navigate([info.id], { relativeTo: this.activatedRoute });
+  }
+
+  onTextChanged(text: string) {
+    this.visibleKanjiList$.next(
+      text
+        ? this._kanjiList.filter((k) => k.meaning.includes(text))
+        : this._kanjiList
+    );
+  }
+
+  trackById(model: KanjiInfoModel) {
+    return model.id;
   }
 }
