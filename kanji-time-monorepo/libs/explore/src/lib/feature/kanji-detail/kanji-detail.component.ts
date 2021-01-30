@@ -34,7 +34,7 @@ export class KanjiDetailComponent implements OnInit, OnDestroy {
         )
       )
       .subscribe(({ kanji, meaning, onReading, kunReading, jlpt, strokes }) => {
-        // this.kanji = kanji;
+        this.kanji = kanji;
         this.meaning = meaning;
         this.multipleMeanings = /.+,.+/.test(meaning);
         this.onReading = onReading;
