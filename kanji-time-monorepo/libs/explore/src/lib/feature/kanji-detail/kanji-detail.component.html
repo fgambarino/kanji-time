@@ -29,7 +29,8 @@
         </ul>
       </ng-container>
       <p class="details-content__detail">
-        It is written with <strong>{{ strokes }}</strong> strokes.
+        It is written with
+        <strong>{{ strokes }}</strong> stroke{{ strokes > 1 ? 's' : '' }}.
       </p>
       <p class="details-content__detail">
         It's required to achieve the <strong>{{ jlpt }}</strong> JLPT

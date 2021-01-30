@@ -52,7 +52,7 @@ export class KanjiListComponent implements OnInit, OnDestroy {
   onTextChanged(text: string) {
     this.visibleKanjiList$.next(
       text
-        ? this._kanjiList.filter((k) => k.meaning.includes(text))
+        ? this._kanjiList.filter((k) => k.meaning.includes(text.toLowerCase()))
         : this._kanjiList
     );
   }
