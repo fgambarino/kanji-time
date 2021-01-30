@@ -12,9 +12,15 @@
   <ui-ancient-input (textChanged)="onTextChanged($event)"></ui-ancient-input>
 </ui-option-bar>
 <div class="kanji-list-container">
-  <ui-kanji-card
-    *ngFor="let k of visibleKanjiList$ | async; trackBy: trackById"
-    [kanjiInfo]="k"
-    (click)="onCardClick(k)"
-  ></ui-kanji-card>
+  <ng-container
+    *ngIf="visibleKanjiList$ | async as visibleKanjiList; else loading"
+    ><ui-kanji-card
+      *ngFor="let k of visibleKanjiList; trackBy: trackById"
+      [kanjiInfo]="k"
+      (click)="onCardClick(k)"
+    ></ui-kanji-card
+  ></ng-container>
+  <ng-template #loading>
+    <div class="loader"><ui-loading></ui-loading></div>
+  </ng-template>
 </div>

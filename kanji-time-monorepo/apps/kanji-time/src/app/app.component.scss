@@ -46,7 +46,7 @@ $sign-border: polygon(
       margin-bottom: 2rem;
       margin-left: auto;
       margin-right: auto;
-      padding: 1rem;
+      cursor: pointer;
       color: #fffdea;
       text-shadow: -2px -2px 4px black;
       box-shadow: inset -1px -1px 4px 1px #2d2722;
@@ -58,6 +58,9 @@ $sign-border: polygon(
 
       h1 {
         @include transform(skewX(-10deg));
+      }
+      &:focus {
+        outline: 0;
       }
     }
   }
@@ -99,5 +102,17 @@ $sign-border: polygon(
         width: 400px;
       }
     }
+  }
+}
+
+@media (orientation: landscape) {
+  .container__title {
+    padding: 0.5rem;
+  }
+}
+
+@media (orientation: portrait) {
+  .container__title {
+    padding: 1rem;
   }
 }

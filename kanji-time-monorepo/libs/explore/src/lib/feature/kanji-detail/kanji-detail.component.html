@@ -1,1 +1,44 @@
-<p>kanji-detail works!</p>
+<div class="details-container">
+  <ng-container *ngIf="kanji; else loading"
+    ><h2 class="details-title">{{ kanji }}</h2>
+    <div class="details-content">
+      <p class="details-content__detail">
+        The kanji <em>{{ kanji }}</em> has the following meaning{{
+          multipleMeanings ? 's' : ''
+        }}: <strong>{{ meaning }}</strong
+        >.
+      </p>
+      <ng-container *ngIf="kunReading?.length">
+        <p class="details-content__detail">
+          It has the following <strong>Kun</strong> reading{{
+            kunReading.length > 1 ? 's' : ''
+          }}:
+        </p>
+        <ul>
+          <li *ngFor="let reading of kunReading">{{ reading }}</li>
+        </ul>
+      </ng-container>
+      <ng-container *ngIf="onReading?.length">
+        <p class="details-content__detail">
+          It has the following <strong>On</strong> reading{{
+            onReading.length > 1 ? 's' : ''
+          }}:
+        </p>
+        <ul>
+          <li *ngFor="let reading of onReading">{{ reading }}</li>
+        </ul>
+      </ng-container>
+      <p class="details-content__detail">
+        It is written with <strong>{{ strokes }}</strong> strokes.
+      </p>
+      <p class="details-content__detail">
+        It's required to achieve the <strong>{{ jlpt }}</strong> JLPT
+        certification.
+      </p>
+    </div></ng-container
+  >
+
+  <ng-template #loading
+    ><div class="loader"><ui-loading></ui-loading></div
+  ></ng-template>
+</div>

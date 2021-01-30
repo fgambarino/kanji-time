@@ -13,24 +13,3 @@
 h3 {
   margin: 5px 0;
 }
-
-.content--funny {
-  @include transition(font-size 2s, color 2s);
-  cursor: pointer;
-  &:hover {
-    background-image: linear-gradient(
-      to left,
-      violet,
-      indigo,
-      blue,
-      green,
-      yellow,
-      orange,
-      red
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 30px;
-  }
-}

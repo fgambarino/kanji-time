@@ -1,0 +1,29 @@
+$details-fontSize: 20px;
+$text-Shadow: 1px 1px 8px #fff;
+
+.details-container {
+  text-align: center;
+  padding: 1rem;
+  text-shadow: $text-Shadow;
+
+  .details-title {
+    font-size: 50px;
+  }
+
+  .details-content {
+    ul > li {
+      font-size: $details-fontSize;
+      font-weight: bold;
+      list-style-type: none;
+    }
+
+    .details-content__detail {
+      margin: 1rem;
+      font-size: $details-fontSize;
+    }
+  }
+}
+
+.loader {
+  margin-top: 35%;
+}
