@@ -5,6 +5,10 @@
     text-align: center;
     padding: 1rem;
 
+    .home-container__intro {
+      padding-top: 2rem;
+    }
+
     .home-container__panel-container {
       margin-top: 2rem;
       display: flex;
@@ -12,7 +16,6 @@
       align-items: stretch;
       flex-flow: row wrap;
       align-content: space-around;
-      // height: 100%;
     }
 
     .home-container__panel {
