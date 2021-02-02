@@ -1,4 +1,4 @@
-$details-fontSize: 20px;
+$details-fontSize: 1.25rem;
 $text-Shadow: 1px 1px 8px #fff;
 
 .details-container {
@@ -7,7 +7,7 @@ $text-Shadow: 1px 1px 8px #fff;
   text-shadow: $text-Shadow;
 
   .details-title {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .details-content {

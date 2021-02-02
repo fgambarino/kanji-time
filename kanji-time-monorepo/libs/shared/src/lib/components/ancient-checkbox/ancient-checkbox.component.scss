@@ -20,7 +20,7 @@ $sign-border: polygon(
   position: relative;
   padding-left: 35px;
   margin: 0px 12px 12px 0px;
-  font-size: 20px;
+  font-size: 1.25rem;
   @include user-select(none);
 
   input {
