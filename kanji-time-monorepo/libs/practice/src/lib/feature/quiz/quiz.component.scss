@@ -1,0 +1,30 @@
+:host {
+  text-shadow: 1px 1px 6px #fff;
+  .progress {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+    .progress--number {
+      font-weight: bold;
+    }
+
+    .progress--percentage {
+      font-weight: bold;
+    }
+  }
+
+  .welcome {
+    text-align: center;
+    padding: 70px 30px;
+
+    .welcome--description {
+      padding: 2rem;
+    }
+  }
+  .loader {
+    margin-top: 35%;
+    text-align: center;
+  }
+}

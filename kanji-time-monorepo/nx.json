@@ -18,7 +18,12 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ]
       }
     }
   },
@@ -28,12 +33,17 @@
     },
     "kanji-time-e2e": {
       "tags": [],
-      "implicitDependencies": ["kanji-time"]
+      "implicitDependencies": [
+        "kanji-time"
+      ]
     },
     "explore": {
       "tags": []
     },
     "shared": {
+      "tags": []
+    },
+    "practice": {
       "tags": []
     }
   }

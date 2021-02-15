@@ -11,13 +11,14 @@
     "target": "es2015",
     "module": "esnext",
     "typeRoots": ["node_modules/@types"],
-    "lib": ["es2017", "dom"],
+    "lib": ["es2019", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "@kanji-time-monorepo/explore": ["libs/explore/src/index.ts"],
-      "@kanji-time-monorepo/shared": ["libs/shared/src/index.ts"]
+      "@kanji-time-monorepo/shared": ["libs/shared/src/index.ts"],
+      "@kanji-time-monorepo/practice": ["libs/practice/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

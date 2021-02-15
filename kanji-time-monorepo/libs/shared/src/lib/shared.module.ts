@@ -7,6 +7,7 @@ import { OptionBarComponent } from './components/option-bar/option-bar.component
 import { AncientInputComponent } from './components/ancient-input/ancient-input.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LoadingComponent } from './components/loading/loading.component';
+import { QuestionComponent } from './components/question/question.component';
 
 @NgModule({
   imports: [CommonModule, ReactiveFormsModule],
@@ -17,6 +18,7 @@ import { LoadingComponent } from './components/loading/loading.component';
     OptionBarComponent,
     AncientInputComponent,
     LoadingComponent,
+    QuestionComponent,
   ],
   exports: [
     AncientButtonComponent,
@@ -25,6 +27,7 @@ import { LoadingComponent } from './components/loading/loading.component';
     OptionBarComponent,
     AncientInputComponent,
     LoadingComponent,
+    QuestionComponent,
   ],
 })
 export class SharedModule {}

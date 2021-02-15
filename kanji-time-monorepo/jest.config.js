@@ -4,5 +4,7 @@ module.exports = {
     '<rootDir>/libs/explore/explore',
     '<rootDir>/libs/explore',
     '<rootDir>/libs/shared',
+    '<rootDir>/libs/test/test',
+    '<rootDir>/libs/practice',
   ],
 };

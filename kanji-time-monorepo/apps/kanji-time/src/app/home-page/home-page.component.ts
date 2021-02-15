@@ -15,4 +15,8 @@ export class HomePageComponent implements OnInit {
   goExplore() {
     this.router.navigate(['explore']);
   }
+
+  goPractice() {
+    this.router.navigate(['practice']);
+  }
 }

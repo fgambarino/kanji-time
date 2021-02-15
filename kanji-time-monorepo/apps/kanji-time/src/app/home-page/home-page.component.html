@@ -17,11 +17,13 @@
         >Go explore!</ui-ancient-button
       >
     </div>
-    <!-- <div class="home-container__panel">
+    <div class="home-container__panel">
       <div class="home-container__panel-intro">
         <p>Do you want to test your <strong> kanji skills</strong>?</p>
       </div>
-      <ui-ancient-button>Take the test! <br />やってみよう!</ui-ancient-button>
-    </div> -->
+      <ui-ancient-button (btnClick)="goPractice()"
+        >Take the test! <br />やってみよう!</ui-ancient-button
+      >
+    </div>
   </div>
 </div>

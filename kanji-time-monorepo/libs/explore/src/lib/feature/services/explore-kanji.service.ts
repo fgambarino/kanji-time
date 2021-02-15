@@ -1,8 +1,10 @@
-import { KanjiInfoModel } from './../../domain/kanji-info.model';
+import {
+  KanjiInfoEntityList,
+  KanjiInfoModel,
+} from '@kanji-time-monorepo/shared';
 import { HttpClient } from '@angular/common/http';
 import { Inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { KanjiInfoEntityList } from '../../domain/kanji-info.model';
 import { map } from 'rxjs/operators';
 
 @Injectable()

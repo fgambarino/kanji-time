@@ -1,4 +1,4 @@
-import { SharedModule } from './../../../../libs/shared/src/lib/shared.module';
+import { SharedModule } from '@kanji-time-monorepo/shared';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -10,7 +10,14 @@ import { NgScrollbarModule } from 'ngx-scrollbar';
 
 @NgModule({
   declarations: [AppComponent, PageNotFoundComponent, HomePageComponent],
-  imports: [BrowserModule, AppRoutingModule, NgScrollbarModule, SharedModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgScrollbarModule.withConfig({
+      visibility: 'hover',
+    }),
+    SharedModule,
+  ],
   providers: [
     {
       provide: 'kanji-list-url',

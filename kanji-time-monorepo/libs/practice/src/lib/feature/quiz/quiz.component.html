@@ -1,0 +1,35 @@
+<ng-container [ngSwitch]="sectionToShow">
+  <div *ngSwitchCase="'quiz'">
+    <div class="progress">
+      <div class="progress--number">
+        {{ numberAnswered + 1 }}/{{ totalQuestions }}
+      </div>
+      <div
+        class="progress--percentage"
+        [style.visibility]="numberAnswered ? null : 'hidden'"
+      >
+        Correct: {{ (numberCorrect / numberAnswered) * 100 | number }}%
+      </div>
+    </div>
+    <ui-question
+      [question]="kanjiQuestion"
+      (answer)="onAnswer($event)"
+    ></ui-question>
+  </div>
+
+  <div *ngSwitchCase="'loading'" class="loader">
+    <ui-loading></ui-loading>
+  </div>
+
+  <div *ngSwitchCase="'result'">result!!</div>
+
+  <div *ngSwitchDefault>
+    <div class="welcome">
+      <h3>Are you ready to start the challenge?</h3>
+      <p class="welcome--description">
+        Choose wich is the correct reading between the different options!
+      </p>
+      <ui-ancient-button (btnClick)="startTheQuiz()">START!</ui-ancient-button>
+    </div>
+  </div>
+</ng-container>
