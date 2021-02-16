@@ -1,0 +1,52 @@
+:host {
+  text-shadow: 1px 1px 6px #fff;
+  .progress {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+    .progress--number {
+      font-weight: bold;
+    }
+
+    .progress--percentage {
+      font-weight: bold;
+    }
+  }
+
+  .welcome {
+    text-align: center;
+    padding: 10% 5%;
+
+    .welcome--description {
+      padding: 2rem;
+    }
+  }
+  .loader {
+    margin-top: 35%;
+    text-align: center;
+  }
+
+  .final-result {
+    text-align: center;
+    padding: 30%;
+  }
+
+  .final-result--completed {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .final-result--percentage {
+    font-size: 1.2rem;
+  }
+
+  .final-result--message {
+    font-size: 1.1rem;
+  }
+}
+
+ui-ancient-button {
+  font-size: 2rem;
+}

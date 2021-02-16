@@ -3,7 +3,7 @@
 :host {
   .home-container {
     text-align: center;
-    padding: 1rem;
+    padding: 10% 5%;
 
     .home-container__intro {
       padding-top: 2rem;
@@ -12,10 +12,8 @@
     .home-container__panel-container {
       margin-top: 2rem;
       display: flex;
-      justify-content: space-evenly;
-      align-items: stretch;
+      justify-content: space-around;
       flex-flow: row wrap;
-      align-content: space-around;
     }
 
     .home-container__panel {
@@ -25,6 +23,7 @@
       background-color: rgba(226, 237, 240, 0.884);
       box-shadow: 2px 2px 5px #dac8c8;
       flex-grow: 1;
+      margin-top: 20px;
     }
 
     .home-container__panel-intro {

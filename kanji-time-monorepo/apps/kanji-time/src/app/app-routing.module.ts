@@ -10,6 +10,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('@kanji-time-monorepo/explore').then((m) => m.ExploreModule),
   },
+  {
+    path: 'practice',
+    loadChildren: () =>
+      import('@kanji-time-monorepo/practice').then((m) => m.PracticeModule),
+  },
   { path: '**', component: PageNotFoundComponent },
 ];
 

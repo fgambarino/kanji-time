@@ -198,6 +198,39 @@
           "style": "scss"
         }
       }
+    },
+    "practice": {
+      "projectType": "library",
+      "root": "libs/practice",
+      "sourceRoot": "libs/practice/src",
+      "prefix": "prc",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/practice/tsconfig.lib.json",
+              "libs/practice/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/practice/**/*"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/practice/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      },
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
     }
   },
   "cli": {

@@ -1,9 +1,9 @@
-import { KanjiInfoModel } from './../../domain/kanji-info.model';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subject } from 'rxjs';
 import { ExploreKanjiService } from '../services/explore-kanji.service';
 import { map, takeUntil } from 'rxjs/operators';
 import { ActivatedRoute, Router } from '@angular/router';
+import { KanjiInfoModel } from '@kanji-time-monorepo/shared';
 
 @Component({
   // tslint:disable-next-line:component-selector

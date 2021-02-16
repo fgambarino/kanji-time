@@ -1,4 +1,4 @@
-import { SharedModule } from './../../../shared/src/lib/shared.module';
+import { SharedModule } from '@kanji-time-monorepo/shared';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';

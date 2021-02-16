@@ -1,10 +1,5 @@
-import { KanjiInfoModel } from './../../../../../explore/src/lib/domain/kanji-info.model';
-import {
-  Component,
-  OnInit,
-  ChangeDetectionStrategy,
-  Input,
-} from '@angular/core';
+import { KanjiInfoModel } from '@kanji-time-monorepo/shared';
+import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
 
 @Component({
   selector: 'ui-kanji-card',
