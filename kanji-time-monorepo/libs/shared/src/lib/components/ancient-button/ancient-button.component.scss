@@ -29,6 +29,7 @@ $sign-border: polygon(
     border-image-slice: 1;
     border-width: 7px;
     cursor: pointer;
+    font-size: 1rem;
 
     &:hover {
       background: linear-gradient(0deg, #eeb63d, #a36f06);

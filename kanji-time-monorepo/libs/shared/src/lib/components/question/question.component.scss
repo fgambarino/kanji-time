@@ -5,6 +5,7 @@
     .question-box--kanji {
       font-size: 3rem;
       font-weight: bolder;
+      margin-top: 10%;
     }
     .question-box--question {
       font-size: 1.2rem;
@@ -14,6 +15,7 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
+      margin-top: 10%;
 
       ui-ancient-button {
         margin: 10px;

@@ -8,7 +8,7 @@
         class="progress--percentage"
         [style.visibility]="numberAnswered ? null : 'hidden'"
       >
-        Correct: {{ (numberCorrect / numberAnswered) * 100 | number }}%
+        Correct: {{ (numberCorrect / numberAnswered) * 100 | number: '1.0-0' }}%
       </div>
     </div>
     <ui-question
@@ -21,7 +21,17 @@
     <ui-loading></ui-loading>
   </div>
 
-  <div *ngSwitchCase="'result'">result!!</div>
+  <div *ngSwitchCase="'result'" class="final-result">
+    <p class="final-result--completed">Test completed!</p>
+    <p class="final-result--percentage">
+      Your answers were
+      <strong
+        >{{ (numberCorrect / numberAnswered) * 100 | number: '1.0-0' }}%</strong
+      >
+      correct.
+    </p>
+    <p class="final-result--message">{{ resultMessage }}</p>
+  </div>
 
   <div *ngSwitchDefault>
     <div class="welcome">

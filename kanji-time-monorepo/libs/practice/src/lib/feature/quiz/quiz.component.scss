@@ -17,7 +17,7 @@
 
   .welcome {
     text-align: center;
-    padding: 70px 30px;
+    padding: 10% 5%;
 
     .welcome--description {
       padding: 2rem;
@@ -27,4 +27,26 @@
     margin-top: 35%;
     text-align: center;
   }
+
+  .final-result {
+    text-align: center;
+    padding: 30%;
+  }
+
+  .final-result--completed {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .final-result--percentage {
+    font-size: 1.2rem;
+  }
+
+  .final-result--message {
+    font-size: 1.1rem;
+  }
+}
+
+ui-ancient-button {
+  font-size: 2rem;
 }
