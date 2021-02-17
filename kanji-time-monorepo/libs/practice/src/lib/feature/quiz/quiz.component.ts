@@ -1,17 +1,22 @@
 import { Question } from './../../domain/question.model';
 import { PracticeService } from './../services/practice.service';
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { BehaviorSubject, Subject, zip } from 'rxjs';
-import { share, switchMap, takeUntil } from 'rxjs/operators';
+import { share, switchMap, take, takeUntil } from 'rxjs/operators';
 import { UiQuestion } from '@kanji-time-monorepo/shared';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'prc',
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.scss'],
 })
-export class QuizComponent implements OnInit, OnDestroy {
-  constructor(private practiceService: PracticeService) {}
+export class QuizComponent implements OnDestroy {
+  constructor(
+    private practiceService: PracticeService,
+    private router: Router,
+    private activatedRoute: ActivatedRoute
+  ) {}
 
   public kanjiQuestion: UiQuestion;
   public numberAnswered = 0;
@@ -24,8 +29,6 @@ export class QuizComponent implements OnInit, OnDestroy {
     true
   );
   private destroy$ = new Subject();
-
-  ngOnInit(): void {}
 
   ngOnDestroy() {
     this.destroy$.next();
@@ -97,6 +100,10 @@ export class QuizComponent implements OnInit, OnDestroy {
       options,
       meaning,
     };
+  }
+
+  onBtnClick() {
+    this.router.navigate([''], { relativeTo: this.activatedRoute });
   }
 }
 

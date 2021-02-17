@@ -1,4 +1,4 @@
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { switchMap, takeUntil } from 'rxjs/operators';
 import { ExploreKanjiService } from './../services/explore-kanji.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
@@ -22,7 +22,8 @@ export class KanjiDetailComponent implements OnInit, OnDestroy {
 
   constructor(
     private exploreKanjiService: ExploreKanjiService,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -46,5 +47,9 @@ export class KanjiDetailComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.destroy$.next();
+  }
+
+  onClick() {
+    this.router.navigate(['../'], { relativeTo: this.activatedRoute });
   }
 }
