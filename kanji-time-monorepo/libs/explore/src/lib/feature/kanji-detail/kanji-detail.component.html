@@ -36,8 +36,9 @@
         It's required to achieve the <strong>{{ jlpt }}</strong> JLPT
         certification.
       </p>
-    </div></ng-container
-  >
+    </div>
+    <ui-ancient-button (btnClick)="onClick()">GO BACK</ui-ancient-button>
+  </ng-container>
 
   <ng-template #loading
     ><div class="loader"><ui-loading></ui-loading></div

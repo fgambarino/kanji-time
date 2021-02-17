@@ -25,11 +25,13 @@ $sign-border: polygon(
     background-size: cover;
     margin: 0 auto;
     width: 100%;
-    height: 100vh;
+    height: 100vh; // fallback
+    height: calc(var(--vh, 1vh) * 100);
     padding-top: 20px;
 
     .container__content {
-      height: calc(100vh - 200px);
+      height: calc(100vh - 200px); // fallback
+      height: calc(var(--vh, 1vh) * 100 - 200px);
       width: 75%;
       max-width: 1200px;
       margin: auto;

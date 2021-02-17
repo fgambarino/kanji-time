@@ -1,4 +1,4 @@
-import { KanjiInfoModel } from '@kanji-time-monorepo/shared';
+import { KanjiInfoModel } from '../../models/kanji-info.model';
 import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
 
 @Component({
