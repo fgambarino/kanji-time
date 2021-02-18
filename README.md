@@ -2,4 +2,4 @@
 
 # Kanji Time!
 
-Source code of the [**Kanji Time!**](https://kanji-time.netlify.app) site, created with Angular using NX Monorepo. The purpose of the site is to help studying japanese kanji, focusing on their different readings.
+Source code of the [**Kanji Time!**](https://kanji-time.netlify.app) site, created with Angular using NX Monorepo. The purpose of the site is to help people study japanese kanjis, focusing on their different readings.
