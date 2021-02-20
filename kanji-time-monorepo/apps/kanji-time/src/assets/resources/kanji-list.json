@@ -60,7 +60,7 @@
     "kunReading": [
       "ニチ","ニ","ジツ"
     ],
-    "meaning": "sun",
+    "meaning": "sun, day",
     "strokes": 4,
     "jlpt": "N5"
   },
@@ -73,7 +73,7 @@
     "kunReading": [
       "ゲツ","―ガツ"
     ],
-    "meaning": "moon",
+    "meaning": "moon, month",
     "strokes": 4,
     "jlpt": "N5"
   },
@@ -112,7 +112,7 @@
     "kunReading": [
       "キン"
     ],
-    "meaning": "gold",
+    "meaning": "gold, money",
     "strokes": 8,
     "jlpt": "N5"
   },
@@ -373,7 +373,7 @@
       "ブン","フン","ープン"
     ],
     "meaning": "divide, understand, minute",
-    "strokes": 3,
+    "strokes": 4,
     "jlpt": "N5"
   },
   "30": {
@@ -386,7 +386,7 @@
       "チュウ","ージュウ"
     ],
     "meaning": "middle",
-    "strokes": 3,
+    "strokes": 4,
     "jlpt": "N5"
   },
   "31": {
@@ -682,7 +682,7 @@
       "そと"    
     ],
     "kunReading": [
-      "がい"
+      "ガイ"
     ],
     "meaning": "outside",
     "strokes": 5,
@@ -1316,7 +1316,7 @@
     "id": 102,
     "kanji": "会",
     "onReading": [
-      "あーい"
+      "あーう"
     ],
     "kunReading": [
       "カイ"
@@ -1334,7 +1334,7 @@
     "kunReading": [
       "シャ","ージャ"
     ],
-    "meaning": "company",
+    "meaning": "company, shrine",
     "strokes": 7,
     "jlpt": "N5"
   },
