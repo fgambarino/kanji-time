@@ -1,8 +1,8 @@
 import { Question } from './../../domain/question.model';
 import { PracticeService } from './../services/practice.service';
 import { Component, OnDestroy } from '@angular/core';
-import { BehaviorSubject, Subject, zip } from 'rxjs';
-import { share, switchMap, take, takeUntil } from 'rxjs/operators';
+import { BehaviorSubject, concat, of, Subject, zip } from 'rxjs';
+import { share, switchMap, takeUntil } from 'rxjs/operators';
 import { UiQuestion } from '@kanji-time-monorepo/shared';
 import { Router, ActivatedRoute } from '@angular/router';
 
@@ -46,15 +46,20 @@ export class QuizComponent implements OnDestroy {
 
     zip(
       this.showNextQuestion$,
-      questions$.pipe(
-        switchMap((questions) => {
-          return shuffleArray(questions);
-        })
+      concat(
+        questions$.pipe(
+          switchMap((questions) => {
+            return shuffleArray(questions);
+          })
+        ),
+        of(null)
       )
     )
       .pipe(takeUntil(this.destroy$))
       .subscribe({
-        next: ([, kanjiQuestion]) => this._setKanjiForQuestion(kanjiQuestion),
+        next: ([, kanjiQuestion]) => {
+          if (kanjiQuestion) this._setKanjiForQuestion(kanjiQuestion);
+        },
         complete: () => {
           this.sectionToShow = 'result';
           this.resultMessage = this.getResultMessage();
