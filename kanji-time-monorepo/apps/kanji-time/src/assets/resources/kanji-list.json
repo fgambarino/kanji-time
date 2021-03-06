@@ -1582,5 +1582,265 @@
     "meaning": "village",
     "strokes": 7,
     "jlpt": "N4"
+  },
+  "171": {
+    "id": 171,
+    "kanji": "林",
+    "onReading": [
+      "はやし"
+    ],
+    "kunReading": [
+      "リン"
+    ],
+    "meaning": "wood",
+    "strokes": 8,
+    "jlpt": "N4"
+  },
+  "172": {
+    "id": 172,
+    "kanji": "森",
+    "onReading": [
+      "もり"
+    ],
+    "kunReading": [
+      "シン"
+    ],
+    "meaning": "forest",
+    "strokes": 12,
+    "jlpt": "N4"
+  },
+  "173": {
+    "id": 173,
+    "kanji": "地",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "ジ", "チ"
+    ],
+    "meaning": "ground",
+    "strokes": 6,
+    "jlpt": "N4"
+  },
+  "174": {
+    "id": 174,
+    "kanji": "池",
+    "onReading": [
+      "いけ"
+    ],
+    "kunReading": [
+      "チ"
+    ],
+    "meaning": "pond",
+    "strokes": 6,
+    "jlpt": "N4"
+  },
+  "175": {
+    "id": 175,
+    "kanji": "海",
+    "onReading": [
+      "うみ"
+    ],
+    "kunReading": [
+      "カイ"
+    ],
+    "meaning": "sea",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "176": {
+    "id": 176,
+    "kanji": "洋",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "ヨウ"
+    ],
+    "meaning": "ocean",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "177": {
+    "id": 177,
+    "kanji": "雪",
+    "onReading": [
+      "ゆき"
+    ],
+    "kunReading": [
+      "セツ"
+    ],
+    "meaning": "snow",
+    "strokes": 11,
+    "jlpt": "N4"
+  },
+  "178": {
+    "id": 178,
+    "kanji": "光",
+    "onReading": [
+      "ひかり","ひかーる"
+    ],
+    "kunReading": [
+      "コウ"
+    ],
+    "meaning": "light",
+    "strokes": 6,
+    "jlpt": "N4"
+  },
+  "179": {
+    "id": 179,
+    "kanji": "台",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "ダイ","タイ"
+    ],
+    "meaning": "table",
+    "strokes": 5,
+    "jlpt": "N4"
+  },
+  "180": {
+    "id": 180,
+    "kanji": "風",
+    "onReading": [
+      "かぜ"
+    ],
+    "kunReading": [
+      "フウ"
+    ],
+    "meaning": "wind, style",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "181": {
+    "id": 181,
+    "kanji": "季",
+    "onReading": [
+      
+    ],
+    "kunReading": [
+      "キ"
+    ],
+    "meaning": "season",
+    "strokes": 8,
+    "jlpt": "N4"
+  },
+  "182": {
+    "id": 182,
+    "kanji": "節",
+    "onReading": [
+      "ふし"
+    ],
+    "kunReading": [
+      "セツ"
+    ],
+    "meaning": "joint",
+    "strokes": 13,
+    "jlpt": "N4"
+  },
+  "183": {
+    "id": 183,
+    "kanji": "春",
+    "onReading": [
+      "はる"
+    ],
+    "kunReading": [
+      "シュン"
+    ],
+    "meaning": "spring",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "184": {
+    "id": 184,
+    "kanji": "夏",
+    "onReading": [
+      "なつ"
+    ],
+    "kunReading": [
+      "カ"
+    ],
+    "meaning": "summer",
+    "strokes": 10,
+    "jlpt": "N4"
+  },
+  "185": {
+    "id": 185,
+    "kanji": "秋",
+    "onReading": [
+      "あき"
+    ],
+    "kunReading": [
+      "シュウ"
+    ],
+    "meaning": "autumn",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "186": {
+    "id": 186,
+    "kanji": "冬",
+    "onReading": [
+      "ふゆ"
+    ],
+    "kunReading": [
+      "トウ"
+    ],
+    "meaning": "winter",
+    "strokes": 5,
+    "jlpt": "N4"
+  },
+  "187": {
+    "id": 187,
+    "kanji": "暑",
+    "onReading": [
+      "あつーい"
+    ],
+    "kunReading": [
+      "ショ"
+    ],
+    "meaning": "hot",
+    "strokes": 12,
+    "jlpt": "N4"
+  },
+  "188": {
+    "id": 188,
+    "kanji": "寒",
+    "onReading": [
+      "さむーい"
+    ],
+    "kunReading": [
+      "カン"
+    ],
+    "meaning": "cold",
+    "strokes": 12,
+    "jlpt": "N4"
+  },
+  "189": {
+    "id": 189,
+    "kanji": "暖",
+    "onReading": [
+      "あたたーかい"
+    ],
+    "kunReading": [
+      "ダン"
+    ],
+    "meaning": "warm",
+    "strokes": 13,
+    "jlpt": "N4"
+  },
+  "190": {
+    "id": 190,
+    "kanji": "涼",
+    "onReading": [
+      "すずーしい"
+    ],
+    "kunReading": [
+      "リョウ"
+    ],
+    "meaning": "cool",
+    "strokes": 11,
+    "jlpt": "N4"
   }
 }
