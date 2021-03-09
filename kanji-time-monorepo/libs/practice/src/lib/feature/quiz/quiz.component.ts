@@ -1,5 +1,5 @@
-import { Question } from './../../domain/question.model';
-import { PracticeService } from './../services/practice.service';
+import { Question } from '../../domain/question.model';
+import { PracticeService } from '../services/practice.service';
 import { Component, OnDestroy } from '@angular/core';
 import { BehaviorSubject, concat, of, Subject, zip } from 'rxjs';
 import { share, switchMap, takeUntil } from 'rxjs/operators';
@@ -7,6 +7,7 @@ import { UiQuestion } from '@kanji-time-monorepo/shared';
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'prc',
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.scss'],
