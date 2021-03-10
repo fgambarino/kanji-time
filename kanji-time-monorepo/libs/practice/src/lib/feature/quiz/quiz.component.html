@@ -1,14 +1,15 @@
+<ng-container *ngIf="{answered: answeredQuestions$ | async, percentageCorrect: percentageCorrect$ | async} as answers">
 <ng-container [ngSwitch]="sectionToShow">
   <div *ngSwitchCase="'quiz'">
     <div class="progress">
       <div class="progress--number">
-        {{ numberAnswered + 1 }}/{{ totalQuestions }}
+        {{ answers.answered + 1 }}/{{ totalQuestions }}
       </div>
       <div
         class="progress--percentage"
-        [style.visibility]="numberAnswered ? null : 'hidden'"
+        [style.visibility]="answers.answered ? null : 'hidden'"
       >
-        Correct: {{ (numberCorrect / numberAnswered) * 100 | number: '1.0-0' }}%
+        Correct: {{ answers.percentageCorrect | number: '1.0-0' }}%
       </div>
     </div>
     <ui-question
@@ -26,11 +27,11 @@
     <p class="final-result--percentage">
       Your answers were
       <strong
-        >{{ (numberCorrect / numberAnswered) * 100 | number: '1.0-0' }}%</strong
+        >{{ answers.percentageCorrect | number: '1.0-0' }}%</strong
       >
       correct.
     </p>
-    <p class="final-result--message">{{ resultMessage }}</p>
+    <p class="final-result--message">{{ answers.percentageCorrect | resultMessage }}</p>
     <ui-ancient-button (btnClick)="onBtnClick()"
       >GO TO HOME PAGE</ui-ancient-button
     >
@@ -45,4 +46,5 @@
       <ui-ancient-button (btnClick)="startTheQuiz()">START!</ui-ancient-button>
     </div>
   </div>
+</ng-container>
 </ng-container>
