@@ -21,7 +21,7 @@ export class PracticeService {
         const kanjiValues: KanjiInfoModel[] = Object.values(kanjiList);
         const allKunReadings = kanjiValues.flatMap((x) => x.kunReading);
         const allOnReadings = kanjiValues.flatMap((x) => x.onReading);
-        const questions: Question[] = kanjiValues.reduce(
+        return kanjiValues.reduce(
           (list: Question[], currentKanji: KanjiInfoModel) => {
             const kanjiAvailableReadings: string[] = [
               ...(currentKanji.kunReading?.length ? ['kun'] : []),
@@ -75,8 +75,6 @@ export class PracticeService {
           },
           []
         );
-
-        return questions;
       })
     );
   }
