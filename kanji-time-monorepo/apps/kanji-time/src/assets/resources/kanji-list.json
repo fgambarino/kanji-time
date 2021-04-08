@@ -1613,7 +1613,7 @@
     "id": 173,
     "kanji": "地",
     "onReading": [
-      
+
     ],
     "kunReading": [
       "ジ", "チ"
@@ -1652,7 +1652,7 @@
     "id": 176,
     "kanji": "洋",
     "onReading": [
-      
+
     ],
     "kunReading": [
       "ヨウ"
@@ -1691,7 +1691,7 @@
     "id": 179,
     "kanji": "台",
     "onReading": [
-      
+
     ],
     "kunReading": [
       "ダイ","タイ"
@@ -1717,7 +1717,7 @@
     "id": 181,
     "kanji": "季",
     "onReading": [
-      
+
     ],
     "kunReading": [
       "キ"
@@ -1841,6 +1841,266 @@
     ],
     "meaning": "cool",
     "strokes": 11,
+    "jlpt": "N4"
+  },
+  "191": {
+    "id": 191,
+    "kanji": "体",
+    "onReading": [
+      "からだ"
+    ],
+    "kunReading": [
+      "タイ"
+    ],
+    "meaning": "body",
+    "strokes": 7,
+    "jlpt": "N4"
+  },
+  "192": {
+    "id": 192,
+    "kanji": "頭",
+    "onReading": [
+      "あたま"
+    ],
+    "kunReading": [
+      "ズ"
+    ],
+    "meaning": "head",
+    "strokes": 16,
+    "jlpt": "N4"
+  },
+  "193": {
+    "id": 193,
+    "kanji": "顔",
+    "onReading": [
+      "かお"
+    ],
+    "kunReading": [
+
+    ],
+    "meaning": "face",
+    "strokes": 18,
+    "jlpt": "N4"
+  },
+  "194": {
+    "id": 194,
+    "kanji": "首",
+    "onReading": [
+      "くび"
+    ],
+    "kunReading": [
+      "シュ"
+    ],
+    "meaning": "neck, prime",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "195": {
+    "id": 195,
+    "kanji": "心",
+    "onReading": [
+      "こころ"
+    ],
+    "kunReading": [
+      "シン"
+    ],
+    "meaning": "heart",
+    "strokes": 4,
+    "jlpt": "N4"
+  },
+  "196": {
+    "id": 196,
+    "kanji": "声",
+    "onReading": [
+      "こえ"
+    ],
+    "kunReading": [
+      "セイ"
+    ],
+    "meaning": "voice",
+    "strokes": 7,
+    "jlpt": "N4"
+  },
+  "197": {
+    "id": 197,
+    "kanji": "病",
+    "onReading": [
+      "やまい"
+    ],
+    "kunReading": [
+      "ビョウ"
+    ],
+    "meaning": "illness",
+    "strokes": 10,
+    "jlpt": "N4"
+  },
+  "198": {
+    "id": 198,
+    "kanji": "薬",
+    "onReading": [
+      "くすり"
+    ],
+    "kunReading": [
+      "ヤク","ヤッー"
+    ],
+    "meaning": "medicine",
+    "strokes": 16,
+    "jlpt": "N4"
+  },
+  "199": {
+    "id": 199,
+    "kanji": "科",
+    "onReading": [
+
+    ],
+    "kunReading": [
+      "カ"
+    ],
+    "meaning": "category",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "200": {
+    "id": 200,
+    "kanji": "内",
+    "onReading": [
+      "うち"
+    ],
+    "kunReading": [
+      "ナイ"
+    ],
+    "meaning": "inside",
+    "strokes": 4,
+    "jlpt": "N4"
+  },
+  "201": {
+    "id": 201,
+    "kanji": "朝",
+    "onReading": [
+      "あさ"
+    ],
+    "kunReading": [
+      "チョウ"
+    ],
+    "meaning": "morning",
+    "strokes": 12,
+    "jlpt": "N4"
+  },
+  "202": {
+    "id": 202,
+    "kanji": "昼",
+    "onReading": [
+      "ひる"
+    ],
+    "kunReading": [
+      "チュウ"
+    ],
+    "meaning": "noon",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "203": {
+    "id": 203,
+    "kanji": "夜",
+    "onReading": [
+      "よる","よ"
+    ],
+    "kunReading": [
+      "ヤ"
+    ],
+    "meaning": "night",
+    "strokes": 8,
+    "jlpt": "N4"
+  },
+  "204": {
+    "id": 204,
+    "kanji": "夕",
+    "onReading": [
+      "ゆう"
+    ],
+    "kunReading": [
+
+    ],
+    "meaning": "evening",
+    "strokes": 3,
+    "jlpt": "N4"
+  },
+  "205": {
+    "id": 205,
+    "kanji": "方",
+    "onReading": [
+      "かた","ーがた"
+    ],
+    "kunReading": [
+      "ホウ"
+    ],
+    "meaning": "direction, way",
+    "strokes": 4,
+    "jlpt": "N4"
+  },
+  "206": {
+    "id": 206,
+    "kanji": "晩",
+    "onReading": [
+
+    ],
+    "kunReading": [
+      "バン"
+    ],
+    "meaning": "night",
+    "strokes": 12,
+    "jlpt": "N4"
+  },
+  "207": {
+    "id": 207,
+    "kanji": "計",
+    "onReading": [
+      "はかーる"
+    ],
+    "kunReading": [
+      "ケイ"
+    ],
+    "meaning": "measure",
+    "strokes": 9,
+    "jlpt": "N4"
+  },
+  "208": {
+    "id": 208,
+    "kanji": "曜",
+    "onReading": [
+
+    ],
+    "kunReading": [
+      "ヨウ"
+    ],
+    "meaning": "shine",
+    "strokes": 18,
+    "jlpt": "N4"
+  },
+  "209": {
+    "id": 209,
+    "kanji": "以",
+    "onReading": [
+
+    ],
+    "kunReading": [
+      "イ"
+    ],
+    "meaning": "starting point",
+    "strokes": 5,
+    "jlpt": "N4"
+  },
+  "210": {
+    "id": 210,
+    "kanji": "度",
+    "onReading": [
+
+    ],
+    "kunReading": [
+      "ド"
+    ],
+    "meaning": "degree, frequency",
+    "strokes": 9,
     "jlpt": "N4"
   }
 }
